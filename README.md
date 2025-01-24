@@ -32,9 +32,7 @@ The project seeks to:
 
 ## Results
 After training the model, its performance was evaluated on the test dataset. Here are the key performance metrics:
-- **Accuracy**: XX% (replace with actual results)
-- **Precision**: XX% (replace with actual results)
-- **Recall**: XX% (replace with actual results)
+- **Accuracy**: 90.4% 
 
 ## How It Works
 1. **Input Images**: Users submit images of flowers.
