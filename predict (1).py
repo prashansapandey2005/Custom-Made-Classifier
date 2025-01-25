@@ -102,6 +102,13 @@ else:
         class_names = [cat_to_name[str(cls)] for cls in classes]
         print("Class names:", class_names)
 
+    
     # Print the results
     print("Class numbers:", classes)
     print("Probabilities (%):", [round(prob * 100, 2) for prob in probs])
+
+
+# command line commands: 
+# python predict.py flowers/test/14/image_06091.jpg checkpoints/checkpoint.pth --gpu
+# python predict.py flowers/test/14/image_06091.jpg checkpoints/checkpoint.pth --category_names cat_to_name.json --top_k 10
+# python predict.py flowers/test/14/image_06091.jpg checkpoints/checkpoint.pth --category_names cat_to_name.json --top_k 10 --gpu
